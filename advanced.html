@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="./a-styles.css" />
+    <link rel="icon" href="./images/google-icon.png" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navLogo">
+        <a href="index.html">
+          <img
+            src="./images/google.png"
+            alt="Google Logo"
+            class="navlogo"
+            width="100"
+          />
+        </a>
+      </div>
+      <div class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="image.html">Images</a>
+      </div>
+    </nav>
+
+    <div class="heading">
+      <p>Advanced Search</p>
+    </div>
+
+    <span class="formHeading">Find pages with...</span>
+    <form action="https://www.google.com/search">
+      <label>all these words: <input type="text" name="as_q" /></label>
+      <br />
+      <label
+        >this exact word or phrase: <input type="text" name="as_epq"
+      /></label>
+      <br />
+      <label>any of these words: <input type="text" name="as_oq" /></label>
+      <br />
+      <label>none of these words: <input type="text" name="as_eq" /></label>
+      <br />
+      <input type="submit" value="Advanced Search" />
+    </form>
+    <footer class="footer">
+      <p style="text-align: center; color: gray; text-decoration: none">
+        This is a replica of the Google Search Frontend. Visit the original
+        here:
+        <a href="https://www.google.com" style="text-decoration: none"
+          >Google</a
+        >
+        | Made by AgSpades for CS50W
+      </p>
+    </footer>
+  </body>
+</html>
